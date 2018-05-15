@@ -1,0 +1,40 @@
+body {
+    font-family: 'Roboto Condensed', sans-serif;
+    background-color: #ffcccc;
+    width: 100%;
+}
+
+div {
+    display: flex;
+    flex-direction: column;
+    text-align: center; 
+    margin: 0 auto; 
+    max-width: 1200px;
+    padding: 0 1rem;
+   
+}
+
+h3 {
+    padding: 10px;
+    width: 50%; 
+    margin: 0 auto;
+}
+
+img {
+    width:  200px;
+    height: 200px;
+    border-radius: 50%;
+    border: solid black 1px;
+    margin: 0 auto;
+}
+
+a {
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    text-decoration-line: line-through;
+    color: white;
+}
